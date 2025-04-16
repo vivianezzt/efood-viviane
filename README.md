@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+# 🍽️ Efood - Projeto EBAC
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação de delivery gastronômico, desenvolvida como parte da formação na EBAC, com React, Styled Components, React Router e Redux Toolkit.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Preview da Página Inicial
 
-### `npm start`
+![Preview da Home](./public/readme/pagina1.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✅ Checklist das Entregas
 
-### `npm test`
+### Parte I - Estrutura e Estilo Inicial
+- [x] Criar as telas conforme imagens layout-1parte-Home.png e layout-1parte-Perfil.png
+- [x] Criar um novo projeto React
+- [x] Utilizar Styled Components para estilização
+- [x] Utilizar React Router para navegação entre páginas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Parte II - Integração com API + Modal
+- [ ] Criar modal ao clicar em "comprar produto"
+- [ ] Preencher a página com dados da API: [fake-api-efood](https://fake-api-tau.vercel.app/api/efood/restaurantes)
 
-### `npm run build`
+### Parte III - Carrinho com Redux
+- [ ] Criar página de carrinho com os produtos adicionados
+- [ ] Calcular o total com base nos produtos no Redux
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Parte IV - Checkout e Confirmação
+- [ ] Criar formulário de entrega
+- [ ] Criar tela de pagamento
+- [ ] Criar tela de confirmação do pedido
+- [ ] Enviar POST ao finalizar pedido e exibir resposta da API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Tecnologias Utilizadas
 
-### `npm run eject`
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" alt="ESLint" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" alt="Yarn" width="40" height="40"/>
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Estrutura de Pastas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+efood/
+├── public/
+│   ├── assets/
+│   └── readme/pagina1.png
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── store/
+│   └── styles/
+└── README.md
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 👩‍💻 Desenvolvido por  
+**Viviane Aguiar**  
+📧 [vivianeaguiarc@outlook.com](mailto:vivianeaguiarc@outlook.com)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🌐 Redes Sociais
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivianezzt/)
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vivianezzt)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/vivianezzt)
