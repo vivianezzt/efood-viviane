@@ -1,8 +1,6 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-import { breakpoints, Colors } from '../../styles/globals'
-
-
+import { breakpoints, Colors } from "../../styles/globals";
 
 export const Imagem = styled.div`
   width: 100%;
@@ -57,7 +55,7 @@ export const Imagem = styled.div`
       }
     }
   }
-`
+`;
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -114,7 +112,7 @@ export const HeaderContainer = styled.div`
       width: 96px;
     }
   }
-`
+`;
 
 export const ImagemFundo = styled.div`
   width: 100%;
@@ -143,4 +141,4 @@ export const ImagemFundo = styled.div`
       font-size: 24px;
     }
   }
-`
+`;

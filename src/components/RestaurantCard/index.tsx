@@ -1,4 +1,4 @@
-import { Restaurant } from '../../types/restaurants'
+import { Restaurant } from "../../types/restaurants";
 import {
   Card,
   CardImage,
@@ -7,12 +7,12 @@ import {
   Title,
   Description,
   Rating,
-  LearnMoreButton
-} from './styles'
+  LearnMoreButton,
+} from "./styles";
 
 type RestaurantCardProps = {
-  restaurant: Restaurant
-}
+  restaurant: Restaurant;
+};
 
 const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
   return (
@@ -37,7 +37,7 @@ const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
         </LearnMoreButton>
       </CardContent>
     </Card>
-  )
-}
+  );
+};
 
-export default RestaurantCard
+export default RestaurantCard;

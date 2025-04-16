@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { breakpoints, Colors } from '../../styles/globals';
+import styled from "styled-components";
+import { breakpoints, Colors } from "../../styles/globals";
 
 export const FooterContainer = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ export const FooterContainer = styled.div`
   padding-bottom: 40px;
   margin-top: 120px;
 
-  background-color: #FFEBD9;
+  background-color: #ffebd9;
 
   img {
     margin-top: 40px;
@@ -45,7 +45,7 @@ export const FooterContainer = styled.div`
       width: 330px;
     }
   }
-`
+`;
 
 export const Logo = styled.img`
   height: 56px;
@@ -57,7 +57,7 @@ export const SocialLinks = styled.ul`
   justify-content: center;
   gap: 8px;
   margin-bottom: 16px;
-  
+
   li {
     a {
       display: flex;

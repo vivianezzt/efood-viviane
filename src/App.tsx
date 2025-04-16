@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import GlobalStyles from './styles/globals';
-import Home from './pages/Home';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import GlobalStyles from "./styles/globals";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
@@ -14,4 +14,3 @@ const App = () => {
 };
 
 export default App;
-
