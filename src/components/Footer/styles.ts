@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { breakpoints, Colors } from "../../styles/globals";
+import styled from 'styled-components';
+import { breakpoints, Colors } from '../../styles/globals';
 
 export const FooterContainer = styled.div`
   display: flex;

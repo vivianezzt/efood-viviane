@@ -1,4 +1,4 @@
-import { Restaurant } from "../../types/restaurants";
+import { Restaurant } from '../../types/restaurants';
 import {
   Card,
   CardImage,
@@ -8,7 +8,7 @@ import {
   Description,
   Rating,
   LearnMoreButton,
-} from "./styles";
+} from './styles';
 
 type RestaurantCardProps = {
   restaurant: Restaurant;
@@ -32,9 +32,7 @@ const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
           </Rating>
         </div>
         <Description>{restaurant.descricao}</Description>
-        <LearnMoreButton to={`/restaurante/${restaurant.id}`}>
-          Saiba mais
-        </LearnMoreButton>
+        <LearnMoreButton to={`/restaurante/${restaurant.id}`}>Saiba mais</LearnMoreButton>
       </CardContent>
     </Card>
   );

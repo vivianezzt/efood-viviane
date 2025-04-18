@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-import { breakpoints, Colors } from "../../styles/globals";
+import { breakpoints, Colors } from '../../styles/globals';
 
 export const Imagem = styled.div`
   width: 100%;

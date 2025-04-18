@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
-import * as S from "./styles";
+import { Link } from 'react-router-dom';
+import * as S from './styles';
 
 type Props = {
-  type: "headerHome" | "headerMenu";
+  type: 'headerHome' | 'headerMenu';
 };
 
 const Header = ({ type }: Props) => {
-  if (type === "headerHome") {
+  if (type === 'headerHome') {
     return (
       <S.Imagem style={{ backgroundImage: "url('/assets/fundo.png')" }}>
         <div className="container">
@@ -27,14 +27,11 @@ const Header = ({ type }: Props) => {
           <img src="/assets/logo.svg" alt="Logo eFood" />
         </S.HeaderContainer>
       </div>
-      <S.ImagemFundo
-        key={"default-key"}
-        style={{ backgroundImage: `url('default-image-url')` }}
-      >
+      <S.ImagemFundo key={'default-key'} style={{ backgroundImage: `url('default-image-url')` }}>
         <div className="container">
           <div>
-            <span>{"default-type"}</span>
-            <h1>{"default-title"}</h1>
+            <span>{'default-type'}</span>
+            <h1>{'default-title'}</h1>
           </div>
         </div>
         <div className="overlay"></div>
